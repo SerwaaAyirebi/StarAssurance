@@ -1,0 +1,40 @@
+#main-container{
+    
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    // border:solid red  2px;
+    padding: 5px 25px;
+    height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+   margin: 0;
+}
+.navA{
+    // border:solid blue 2px;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    width: 23%;
+    justify-content: space-between;
+}
+.navB{
+    // border:solid green 2px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 30%;
+    justify-content: space-between;
+}
+.etzlogo{
+    // border:solid yellow 2px;
+    align-content: center;
+}
+.star{
+    align-content: center;
+}

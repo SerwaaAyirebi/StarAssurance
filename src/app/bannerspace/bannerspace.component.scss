@@ -1,0 +1,40 @@
+.bannertext{
+    // border:solid green 2px;
+    color:#275676;
+     font-size: 40px;
+     text-align: center;
+     font-family: "Outfit", serif;
+     font-optical-sizing: auto;
+    // font-weight: weight;
+    // font-style: normal;
+}
+.carlogo{
+//    border:solid green 2px;
+    border-radius: 50px; 
+    display: flex;
+    color: #2384C5;
+    background-color: rgba(134, 134, 134, 0.09);
+    align-content: center;
+    // align-items: center;
+   flex-direction: row;
+   margin: auto;
+   justify-content: center;
+   width:fit-content;
+   padding-left: 15px;
+   padding-right: 15px;;
+}
+.banner-content{
+    height: 80vh;
+    margin-top:6% ;
+    // display: flex;
+    // flex-direction: column;
+
+}
+.search{
+    border-radius: 50px; 
+    display: flex; 
+    justify-content: center;
+   width:fit-content;
+   padding-left: 15px;
+   padding-right: 15px;;
+}
