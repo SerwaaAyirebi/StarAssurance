@@ -1,40 +1,85 @@
-.bannertext{
-    // border:solid green 2px;
-    color:#275676;
-     font-size: 40px;
-     text-align: center;
-     font-family: "Outfit", serif;
-     font-optical-sizing: auto;
-    // font-weight: weight;
-    // font-style: normal;
-}
-.carlogo{
-//    border:solid green 2px;
-    border-radius: 50px; 
-    display: flex;
-    color: #2384C5;
-    background-color: rgba(134, 134, 134, 0.09);
-    align-content: center;
-    // align-items: center;
-   flex-direction: row;
-   margin: auto;
-   justify-content: center;
-   width:fit-content;
-   padding-left: 15px;
-   padding-right: 15px;;
-}
-.banner-content{
-    height: 80vh;
-    margin-top:6% ;
-    // display: flex;
-    // flex-direction: column;
-
-}
-.search{
-    border-radius: 50px; 
-    display: flex; 
+// // #bannerspace{
+// //  background-image: url(../../assets/starimages/bluebackground.svg);
+// // }
+ .bannertext{
+//     // border:solid green 2px;
+     color:#275676;
+      font-size: 50px;
+      text-align: center;
+      font-family: "Outfit", serif;
+      font-optical-sizing: auto;
+      font-weight: 500;
+//     // font-style: normal;
+ }
+ .carlogo{
+// //    border:solid green 2px;
+     border-radius: 50px; 
+     display: flex;
+     color: #2384C5;
+     background-color: rgba(134, 134, 134, 0.09);
+     align-content: center;
+     // align-items: center;
+//    flex-direction: row;
+    margin: auto;
     justify-content: center;
-   width:fit-content;
-   padding-left: 15px;
-   padding-right: 15px;;
+    width:fit-content;
+    padding-left: 15px;
+    padding-right: 15px;;
+ }
+.banner-content{
+     margin-top:6% ;
+    
+     // display: flex;
+     // flex-direction: column;
+
+ }
+ .search{
+    margin-top: 4%;
+    display: flex;
+ }
+ .search input{
+     border-radius: 30px;
+     border: 2px solid;
+     justify-content: center;
+     align-content: center;
+    //  border-radius: 50px; 
+      display: flex;
+      margin-left: 30%; 
+    //  justify-content: center;
+      width:38%;
+     padding: 15px;
+}
+.search input img{
+    margin-left: 70%; 
+}
+ .car{
+//     // border: 2px solid red;
+     width: 100%;
+     margin: auto;
+ }
+ .car img{
+     width: 100%;
+ }
+ .blue{
+     // border: 2px solid green;
+     width: 80%;
+     margin: auto;
+     position: absolute;
+     top: 90%;
+     height: 70%;
+}
+ .blue img{
+     position: relative;
+     bottom: 70%;
+}
+// .full-length{
+//     border: 2px solid;
+//     height:30vh;
+//     // position: relative;
+//     // bottom: 70%;
+// }
+.full-length img{
+    position: absolute;
+    top: 70%;
+    height: 65vh;
 }
