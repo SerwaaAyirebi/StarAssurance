@@ -1,0 +1,120 @@
+
+<form #getquoteform ngSubmit="newForm()">
+    <div class="top">
+    </div>
+    <div class="min">
+    <div class="back">
+        <i routerLink='/bannerspace' class="fa fa-arrow-left"></i>
+    </div>
+    <div class="text">
+         <strong style="font-size: large;">Get Quote</strong></div>
+    </div>
+    <div class="fullform">
+    <div class="form-group">
+         <mat-form-field class="half-width">
+            <label style="color: #747474;">Choose Policy</label>
+            <div>
+            <select placeholder="Select Policy" name="policy" style="border: 1px solid lightgray; color: #747474; border-radius: 10px;padding: 10px;padding-left: 20px;padding-right: 150px;">
+               <option style="color: #747474;">Select Policy</option>
+               <option value="100-500">100-500</option>
+               <option value="300-500">300-500</option>
+               <option value="200-400">200-400</option>
+               <option value="400-600">400-600</option>
+            </select>
+          </div>
+        </mat-form-field>
+    
+   
+     <mat-form-field class="half-width">
+            <label style="color: #747474;">Choose Policy Type</label>
+           <div>
+            <select placeholder="Select Policy" name="policy type" style="border: 1px solid  lightgray; color: #747474; border-radius: 10px;padding: 10px;;padding-left: 20px;padding-right: 100px;">
+                <option>Select Policy Type</option>
+                <option value="100-500">100-500</option>
+               <option value="300-500">300-500</option>
+               <option value="200-400">200-400</option>
+               <option value="400-600">400-600</option>
+            </select>
+        </div>
+        </mat-form-field> 
+  </div>
+  <div>
+         <mat-form-field class="half-width">
+            <label style="color: #747474;">Manufacture year</label>
+            <div>
+            <select placeholder="Select Year" name="manufacture" style="border: 1px solid lightgray; color: #747474; border-radius: 10px;padding: 10px;;padding-left: 20px;padding-right: 160px;">
+                <option>Select Year</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+             </select>
+            </div>
+        </mat-form-field>
+    
+        <mat-form-field class="half-width">
+            <label style="color: #747474;">Year of registration</label>
+            <div>
+            <select placeholder="Select Year" name="registration" style="border: 1px solid  lightgray; color: #747474; border-radius: 10px;padding: 10px;;padding-left: 20px;padding-right: 150px;">
+                <option >Select Year</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+             </select>
+            </div>
+        </mat-form-field> 
+    </div>
+    <div class="form-group">
+        <mat-form-field class="half-width">
+            <label style="color: #747474;">Passenger Count</label>
+            <div>
+            <input matInput placeholder="Enter passenger count" name="count" style="border: 1px solid  lightgray; border-radius: 10px;padding: 10px;padding-left: 20px;padding-right: 90px;">
+            </div>
+        </mat-form-field>
+         
+         
+         <mat-form-field class="half-width">
+            <label style="color: #747474;">Usage</label>
+         <div>
+            <select placeholder="Select Policy" name="policy type" style="border: 1px solid lightgrey; color: #747474; border-radius: 10px;padding: 10px;padding-left: 20px;padding-right: 100px;">
+                <option style="color: lightgray;font-weight: lighter;">Select Usage Type</option>
+                <option value="100-500">100-500</option>
+               <option value="300-500">300-500</option>
+               <option value="200-400">200-400</option>
+               <option value="400-600">400-600</option>
+            </select>
+         </div>
+        </mat-form-field> 
+    </div>
+
+  <div class="form-group">
+    <mat-form-field class="half-width">
+        <label style="color: #747474;">Cubic Capacity</label>
+        <div>
+        <input matInput placeholder="000" name="cubic capacity" style="border: 1px solid  lightgray;border-radius: 10px;padding: 10px;;padding-left: 20px;padding-right: 90px;">
+        </div>
+    </mat-form-field>
+
+    <mat-form-field class="half-width">
+        <label style="color: #747474;">Duration</label>
+        <div>
+        <select placeholder="Select Duration" name="duration"style="border: 1px solid lightgray; color: #747474; border-radius: 10px;padding: 10px;padding-left: 20px;padding-right: 120px;">
+            <option>Select Duration</option>
+            <option value="100-500">100-500</option>
+           <option value="300-500">300-500</option>
+           <option value="200-400">200-400</option>
+           <option value="400-600">400-600</option>
+        </select>
+        </div>
+    </mat-form-field> 
+    <button class="submit">
+        <a routerLink='/getquote1/getquotedetails1' style="text-decoration: none; color: white;border-radius: 10px;">Submit</a>    
+        </button>
+ </div> 
+ </div> 
+     <!-- <button class="submit">
+     <a routerLink='/getquotedetails1' style="text-decoration: none; color: white;border-radius: 10px;">Submit</a>    
+     </button>  -->
+  </form>
+ 
