@@ -1,0 +1,40 @@
+.vehicledetails{
+    
+//    text-align: center;
+    // border: 2px solid green;
+    width: 60%;
+    margin: auto;
+    // margin-top: 40px;
+    // width:fit-content;
+    // background-color: red;
+    // width:90%;
+}
+
+.form-control{
+    border: lightgray solid 1px;
+    border-radius: 10px;
+    padding:13px;
+    width:70%;
+}
+.half-width{
+    // width:70%;
+    color:gray;
+    // border: 2px solid blue;
+    width: 50%;
+}
+.icon-circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 17px;
+    height:17px;
+    color:white;
+    background-color: rgba(35, 132, 197, 1);
+    border: solid white 1px;
+    border-radius: 50%;
+    font-size: 16px;
+}
+.icon-trash{
+    color: white;
+
+}

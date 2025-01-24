@@ -1,0 +1,220 @@
+<div style="display: flex;flex-direction: row;width: 90%;">
+<button style="margin: 20px;" routerLink="/policy/policydetails"><img src="../../../assets/star images/Vector.svg"></button>
+<h1 style="text-align: center;margin: auto;">Vehicle Details</h1>
+</div>
+<!-- 
+<mat-progress-bar mode="determinate" value="40"></mat-progress-bar> -->
+
+    <mat-progress-bar
+        class="example-margin"
+        [color]="color"
+        [mode]="mode"
+        [value]="value"
+        [bufferValue]="bufferValue">
+    </mat-progress-bar>
+
+
+<button style="background-color: #2384C5; color:white; border-style: none;margin-left: 800px;
+    border-radius: 10px;width:250px; font-size:larger;padding:15px; bottom: 50px;">+ Add Another Vehicle</button>
+
+<div class="vehicledetails">
+    
+<div>
+    <mat-form-field class="half-width">
+        <label>Registration year</label>
+   <div class="form-group">
+       <select class="form-control"  name="" placeholder="" style="border:1px solid lightgray; border-radius: 10px;color:#747474;
+       padding:10px;padding-left: 20px;padding-right: 100px;width:77%;">
+           <option>Select registration year</option>
+           <option value="">100</option>
+           <option value="">200</option>
+           <option value="">300</option>
+           <option value="">400</option>
+       </select>
+   </div>
+   </mat-form-field>
+
+   <mat-form-field class="half-width">
+    <label for="Choose policy">Year of manufacture</label>
+<div class="form-group">
+    <select class="form-control" name="" placeholder="" style="border:1px solid lightgray; border-radius: 10px;color:#747474;
+    padding:10px;padding-left: 20px;padding-right: 100px; width:77%;">
+        <option>Select year</option>
+        <option value="">100</option>
+        <option value="">200</option>
+        <option value="">300</option>
+        <option value="">400</option>
+    </select>
+</div>
+</mat-form-field>
+</div>
+
+
+<div>  
+<mat-form-field class="half-width">
+     <label for="Choose policy">Vehicle Usage</label>
+<div class="form-group">
+    <select class="form-control" name="" placeholder="" style="border:1px solid lightgray; border-radius: 10px;color:#747474;
+    padding:10px;padding-left: 20px;padding-right: 100px; width:77%;">
+        <option>Select usage type</option>
+        <option value="">100</option>
+        <option value="">200</option>
+        <option value="">300</option>
+        <option value="">400</option>
+    </select>
+</div>
+</mat-form-field>
+
+<mat-form-field class="half-width">
+    <label for="Choose policy">Vehicle type</label>
+<div class="form-group">
+    <select class="form-control" name="" placeholder="" style="border:1px solid lightgray; border-radius: 10px;color:#747474;
+    padding:10px;padding-left: 20px;padding-right: 100px; width:77%;">
+        <option>Select type</option>
+        <option value="">Car</option>   
+        <option value="">Motorcycle</option>
+        <option value="">Scooter</option>
+        <option value="">Bicycle</option>
+        <option value=""> Electric Bike </option>
+        <option value=""> Electric Scooter</option>
+        <option value=""> Pickup Truck</option>
+        <option value="">Delivery Vehicle</option>
+        <option value="">Tow Truck</option>
+        <option value="">Tractor</option>
+        <option value="">Forklift</option>
+    </select>
+</div>
+</mat-form-field>
+</div>
+
+
+<div style="display: flex; flex-direction: row;">
+<mat-form-field class="half-width">
+    <label>Registration Number</label>
+<div class="form-group">
+    <input matInput type="text" class="form-control" id="policy" placeholder="Input Number">
+</div>
+</mat-form-field>
+
+<div style="width: 40%; display: flex;">
+    <mat-form-field >
+        <label style="color:#747474;">Passenger count</label>
+     <div class="form-group">
+        <select class="form-control" name="" placeholder="" style="border:1px solid lightgray; border-radius: 10px;color:#747474;
+        padding:10px;padding-left: 20px;padding-right: 100px; width:77%;">
+            <option>Select number</option>
+            <option value="">100</option>
+            <option value="">200</option>
+            <option value="">300</option>
+            <option value="">400</option>
+        </select>
+     </div>
+    </mat-form-field>
+    <mat-form-field class="width">
+        <label style="color:#747474;">Vehicle colour</label>
+        <div class="form-group">
+        <input matInput type="text" class="form-control" id="policy" placeholder="Input colour">
+     </div>
+    </mat-form-field>
+</div>
+</div>
+
+
+<div>
+<mat-form-field class="half-width">
+    <label for="Choose policy">Vehicle value</label>
+<div class="form-group"> 
+    <input matInput type="text" class="form-control" id="policy" placeholder="Input value">
+</div>
+</mat-form-field>
+
+<mat-form-field class="half-width">
+    <label for="Choose policy">Chassis Number</label>
+<div class="form-group">
+    <input matInput type="text" class="form-control" id="policy" placeholder="Input chassis">
+</div>
+</mat-form-field>
+</div>
+
+<div>
+<mat-form-field class="half-width">
+    <label for="Choose policy">Vehicle make</label>
+<div class="form-group">
+    <select class="form-control" name="" placeholder="" style="border:1px solid lightgray; border-radius: 10px;color:#747474;
+    padding:10px;padding-left: 20px;padding-right: 100px;width:77%;">
+        <option>Select Vehicle make</option>
+        <option value="">100</option>
+        <option value="">200</option>
+        <option value="">300</option>
+        <option value="">400</option>
+    </select>
+</div>
+</mat-form-field>
+
+<mat-form-field class="half-width">
+    <label for="Choose policy">Vehicle Model</label>
+<div class="form-group">
+    <select class="form-control" name="" placeholder="" style="border:1px solid lightgray; border-radius: 10px;color:#747474;
+    padding:10px;padding-left: 20px;padding-right: 100px; width:77%;">
+        <option>Select Vehicle model</option>
+        <option value="">100</option>
+        <option value="">200</option>
+        <option value="">300</option>
+        <option value="">400</option>
+    </select>
+</div>
+</mat-form-field>
+</div>
+
+<div>
+<mat-form-field class="half-width">
+    <label for="Choose policy">Extra TPPD amount</label>
+<div class="form-group">
+    <input matInput type="text" class="form-control" id="policy" placeholder="GHA-673-20986">
+</div>
+</mat-form-field>
+
+<mat-form-field class="half-width">
+    <label for="Choose policy">Cubic capacity</label>
+<div class="form-group">
+ <input matInput type="text" class="form-control" id="policy" placeholder="Input excess">
+</div>
+</mat-form-field>
+</div>
+
+
+<div style=" display: flex;">
+<mat-form-field class="half-width">
+    <label for="Choose policy">Buy excess</label>
+<div class="form-group">
+    <input matInput type="text" class="form-control" id="policy" placeholder="Input excess">
+</div>
+</mat-form-field>
+
+<div style="display: flex;flex-direction: row; align-content: center; gap:10px; margin-top: 50px;">
+<button style="background-color: rgba(35, 132, 197, 0.24);color:white; border-style: none;
+ border-radius: 10px;width:150px; font-size:larger;padding:10px;height: fit-content;" routerLink="/policy/policydetails">Previous</button>
+ <button style="background-color: #2384C5;color:white; border-style: none;
+ border-radius: 10px;width:150px; font-size:larger;padding:10px; height: fit-content;" routerLink="/policy/summary">Next</button>
+ </div>
+</div>
+
+
+<div style="display: flex;flex-direction: row; justify-content: space-between; width: 87%;">
+    <div style="display: flex;flex-direction: row;">
+    <button  style="display: flex;flex-direction: row; align-content: center;
+     border-radius: 10px;color: white;  background-color: #2384C5; border-style: none; padding: 10px;">
+        <div class="icon-circle"><i class="fas fa-plus" ></i> </div>
+        <div style="margin-top: 3px;">Add Form</div>
+    </button>
+    </div>
+
+    <button style="display: flex;flex-direction: row; align-content: center;
+     border-radius: 10px; color: white; background-color: red; border-style: none; padding: 10px;">
+        <div class="icon-trash"><i class="fas fa-trash"></i></div>
+         Remove
+    </button>
+</div>
+</div>
+
+

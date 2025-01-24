@@ -1,0 +1,108 @@
+<div class="polydetails">
+    <h1 style="text-align: center;">Policy Details</h1>
+
+    <mat-progress-bar [mode]="'determinate'" [value]="percent" [color]="'yellow'">
+
+    </mat-progress-bar>
+
+    <div class="policydetails">
+<form>
+        <div>
+            <mat-form-field class="half-width">
+                <label>Choose Policy</label>
+                <div class="form-group">
+                    <select class="form-control" name="" placeholder="" style="border:1px solid lightgray; border-radius: 10px; color:#747474;
+       padding:15px;padding-left: 10px;padding-right: 100px; width: 80%;">
+                        <option>Select policy</option>
+                        <option value="">Motor policy</option>
+                        <option value="">Private car Insurance policy</option>
+                        <option value="">Commercial Vehicle Insurance policy</option>
+                        <option value="">Fleet Insurance</option>
+                    </select>
+                </div>
+            </mat-form-field>
+
+            <mat-form-field class="half-width">
+                <label>Policy type</label>
+                <div class="form-group">
+                    <select class="form-control" name="" placeholder="" style="border:1px solid lightgray; border-radius: 10px;color:#747474;
+    padding:15px;padding-left: 10px;padding-right: 80px;  width: 80%;">
+                        <option>Select Policy type</option>
+                        <option value="">Comprehensive car insurance</option>
+                        <option value="">Third-party Liability insurance</option>
+                        <option value="">Fire and Theft</option>
+                        <option value="">Personal Injury Protection</option>
+                    </select>
+                </div>
+            </mat-form-field>
+        </div>
+
+
+        <div>
+            <mat-form-field class="half-width">
+                <label>Insurance period</label>
+                <div class="form-group">
+                    <select class="form-control" name="" placeholder="" style="border:1px solid lightgray; border-radius: 10px;color:#747474;
+    padding:15px;padding-left: 10px;padding-right: 50px; width: 80%;">
+                        <option style="border: yellow 2px;">Select p</option>
+                        <option value="">1 month</option>
+                        <option value="">2 months</option>
+                        <option value="">6 months</option>
+                        <option value="">12 months</option>
+                    </select>
+                </div>
+            </mat-form-field>
+            <mat-form-field>
+                <input matInput [matDatepicker]="picker">
+                <mat-datepicker></mat-datepicker>
+            </mat-form-field>
+
+            <!-- <mat-form-field class="half-width">
+                <mat-label>Enter a date range</mat-label>
+                    <mat-date-range-input [rangePicker]="picker">
+                      <input matStartDate placeholder="Start date">
+                      <input matEndDate placeholder="End date">
+                    </mat-date-range-input>
+                    <mat-hint>MM/DD/YYYY – MM/DD/YYYY</mat-hint>
+                    <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+                    <mat-date-range-picker #picker></mat-date-range-picker>
+                </mat-form-field> -->
+                  
+        </div>
+
+        <div>
+            <mat-form-field class="half-width">
+                <label>Phone Number</label>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="policy" placeholder="+233 | XXX XXX XXXX">
+                </div>
+            </mat-form-field>
+
+            <mat-form-field class="half-width">
+                <label>End date</label>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="policy" placeholder="GHA-673-20986">
+                </div>
+            </mat-form-field>
+        </div>
+
+        <div>
+            <mat-form-field class="half-width">
+                <label>Extra TPPD Amount</label>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="policy" placeholder="GHA-673-20986">
+                </div>
+            </mat-form-field>
+        </div>
+
+        <div>
+            <mat-form-field>
+                <div style="display: flex;flex-direction: row; align-content: center; gap:10px;">
+                    <button style="background-color: #2384C5;color:white; border-style: none;
+ border-radius: 10px;width:80%; font-size:larger;padding:15px;" routerLink="/policy/vehicledetails">Next</button>
+                </div>
+            </mat-form-field>
+        </div>
+    </form>
+    </div>
+</div>
