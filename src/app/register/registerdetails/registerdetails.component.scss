@@ -1,18 +1,21 @@
 
 .btn{
-    background-color:  rgba(35, 132, 197, 1);
     color: white;
     width: 46%;
     padding: 10px;
     margin-left: 2%;
     border-radius: 10px;
 }
+.text{
+    margin: auto;
+    // align-self: center;
+    text-align: center;
+}
 .content{
-
     // border: 1px solid purple;
      width: 50%;
      margin: 20px;
-     margin-left: 35%;
+     margin-left: 40%;
      position: relative;
      z-index: 0;
     // border: 1px solid brown;

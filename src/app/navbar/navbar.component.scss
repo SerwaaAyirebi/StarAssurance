@@ -44,6 +44,7 @@
 }
 .navB a{
     color: lightslategrey;
+    text-decoration: none;
 }
 .etzlogo{
     // border:solid yellow 2px;
@@ -52,6 +53,7 @@
 .star{
     align-content: center;
 }
+// <<<<<<< HEAD
 .active{
     color: blue;
     border: 2px solid blue;
@@ -59,3 +61,8 @@
     // color: blue;
     padding: 5px;
 }
+
+// a{
+//     text-decoration: none;
+// >>>>>>> insurance
+// }
