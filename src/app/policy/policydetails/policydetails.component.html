@@ -1,10 +1,24 @@
 <div class="polydetails">
-    <h1 style="text-align: center;">Policy Details</h1>
 
-    <mat-progress-bar [mode]="'determinate'" [value]="percent" [color]="'yellow'">
-
-    </mat-progress-bar>
-
+    <!-- HEADING, ARROW BUTTON, STEP -->
+    <div>   
+        <div style="display: flex;flex-direction: row;width: 100%;justify-content: space-between;margin-top: 75px;">
+        <button style="margin: 20px;" routerLink="/policy/vehicledetails"><img src="../../../assets/star images/Vector.svg"></button>
+        
+        <h2 style="text-align: center;margin-top: 20px;"><strong>Policy Details</strong></h2>
+        <div style="display: flex;flex-direction: row;text-align: center; margin-top: 30px;">
+        <p style="text-align: center;margin-top: 10px;">
+            <div style="color: #2384C5;">Step 1 </div>of 3
+        </div>
+        </div>
+        
+        <div style="background-color: rgba(255, 255, 255, 0.375); height:1vh; width:100%; border: lightgray solid 0.5px; border-radius: 10px;">
+            <div style="background-color: #2384C5; width:33.33%; height:0.7vh;border-radius: 10px; "></div>
+        </div>
+        
+    </div>
+          
+  
     <div class="policydetails">
         <form>
             <div class="top">
@@ -12,9 +26,10 @@
             <div class="fullform">
             <div class="form-group">
                  <mat-form-field class="half-width">
-                    <label style="color: #747474;">Choose Policy</label>
+                    <label for="Choose Policy" style="color: #747474;">Choose Policy</label>
                     <div>
-                    <select placeholder="Select Policy" name="policy" style="border: 1px solid lightgray; color: #747474; border-radius: 10px;padding: 10px;padding-left: 20px;padding-right: 150px; width: 63%;">
+                    <select placeholder="Select Policy" name="policy" style="border: 1px solid lightgray;
+                     color: #747474; border-radius: 10px;padding: 10px;padding-right: 100px; width: 75%;">
                         <option>Select policy</option>
                         <option value="">Motor policy</option>
                         <option value="">Private car Insurance policy</option>
@@ -26,9 +41,10 @@
             
            
              <mat-form-field class="half-width">
-                    <label style="color: #747474;">Choose Policy Type</label>
+                    <label for="Choose Policy Type" style="color: #747474;">Choose Policy Type</label>
                    <div>
-                    <select placeholder="Select Policy" name="policy type" style="border: 1px solid  lightgray; color: #747474; border-radius: 10px;padding: 10px;;padding-left: 20px;padding-right: 100px;  width: 63%;">
+                    <select placeholder="Select Policy" name="policy type" style="border: 1px solid  lightgray; color: #747474;
+                     border-radius: 10px;padding: 10px;padding-right: 80px;  width: 75%;">
                         <option>Select Policy type</option>
                         <option value="">Comprehensive car insurance</option>
                         <option value="">Third-party Liability insurance</option>
@@ -41,9 +57,10 @@
           </div>
           <div>
                  <mat-form-field class="half-width">
-                    <label style="color: #747474;">Insurance Period</label>
+                    <label for="Insurance Period" style="color: #747474;">Insurance Period</label>
                     <div>
-                    <select placeholder="Select Year" name="manufacture" style="border: 1px solid lightgray; color: #747474; border-radius: 10px;padding: 10px;;padding-left: 20px;padding-right: 160px;  width: 63%;">
+                    <select placeholder="Select Year" name="manufacture" style="border: 1px solid lightgray; color: #747474;
+                     border-radius: 10px;padding: 10px;padding-right: 40px;  width: 75%;">
                         <option>Select Isurance Period</option>
                         <option value="">1 month</option>
                         <option value="">2 months</option>
@@ -54,9 +71,10 @@
                 </mat-form-field>
             
                 <mat-form-field class="half-width">
-                    <label style="color: #747474;">Start Date</label>
+                    <label for="Start Date" style="color: #747474;">Start Date</label>
                     <div>
-                    <select placeholder="Select Year"  name="registration" style="border: 1px solid  lightgray; color: #747474; appearance: none; border-radius: 10px;padding: 10px;;padding-left: 20px;padding-right: 150px;width: 63%;">
+                    <select placeholder="Select Year"  name="registration" style="border: 1px solid  lightgray; color: #747474; 
+                    appearance: none; border-radius: 10px;padding: 10px;padding-right: 100px;width: 75%;">
                         <!-- <option >Select Year</option>
                         <option value="2020">2020</option>
                         <option value="2021">2021</option>
@@ -68,18 +86,20 @@
             </div>
             <div class="form-group">
                 <mat-form-field class="half-width">
-                    <label style="color: #747474;">Phone Number</label>
+                    <label for="Phone Number" style="color: #747474;">Phone Number</label>
                     <div>
-                        <input type="text" class="form-control" id="policy" placeholder="+233 | XXX XXX XXXX" style="border: 1px solid  lightgray; border-radius: 10px;padding: 10px;padding-left: 20px;padding-right: 90px;">
+                        <input type="text" class="form-control" id="policy" placeholder="+233 | XXX XXX XXXX" style="border: 1px solid  lightgray;
+                         border-radius: 10px;padding: 10px;padding-left: 20px;padding-right: 90px;">
                     <!-- <input matInput placeholder="Enter passenger count" name="count" style="border: 1px solid  lightgray; border-radius: 10px;padding: 10px;padding-left: 20px;padding-right: 90px;"> -->
                     </div>
                 </mat-form-field>
                  
                  
                 <mat-form-field class="half-width">
-                    <label style="color: #747474;">End Date</label>
+                    <label for="End Date" style="color: #747474;">End Date</label>
                     <div>
-                    <select placeholder="Select Year"  name="registration" style="border: 1px solid  lightgray; color: #747474; appearance: none; border-radius: 10px;padding: 10px;;padding-left: 20px;padding-right: 150px;width: 63%;">
+                    <select placeholder="Select Year"  name="registration" style="border: 1px solid  lightgray; color: #747474;
+                     appearance: none; border-radius: 10px;padding: 10px;padding-right: 100px;width: 75%;">
                         <!-- <option >Select Year</option>
                         <option value="2020">2020</option>
                         <option value="2021">2021</option>
@@ -89,136 +109,12 @@
                     </div>
                 </mat-form-field> 
             </div>
+
+            <!-- BUTTON -->
             <button style="background-color: #2384C5;color:white; border-style: none;
-            border-radius: 10px;width:30%; font-size:larger;padding:15px;" routerLink="/policy/vehicledetails">Next</button>
-     
-          <div class="form-group">
-            <!-- <mat-form-field class="half-width">
-                <label style="color: #747474;">Cubic Capacity</label>
-                <div>
-                <input matInput placeholder="000" name="cubic capacity" style="border: 1px solid  lightgray;border-radius: 10px;padding: 10px;;padding-left: 20px;padding-right: 90px;">
-                </div>
-            </mat-form-field>
-        
-            <mat-form-field class="half-width">
-                <label style="color: #747474;">Duration</label>
-                <div>
-                <select placeholder="Select Duration" name="duration"style="border: 1px solid lightgray; color: #747474; border-radius: 10px;padding: 10px;padding-left: 20px;padding-right: 120px;">
-                    <option>Select Duration</option>
-                    <option value="100-500">100-500</option>
-                   <option value="300-500">300-500</option>
-                   <option value="200-400">200-400</option>
-                   <option value="400-600">400-600</option>
-                </select>
-                </div>
-            </mat-form-field>  -->
-            <!-- <button class="submit  hover:bg-sky-700">
-                <a routerLink='/getquote1/getquotedetails1' style="text-decoration: none; color: white;border-radius: 10px;">Submit</a>    
-                </button> -->
-         </div> 
-         </div> 
-             <!-- <button class="submit">
-             <a routerLink='/getquotedetails1' style="text-decoration: none; color: white;border-radius: 10px;">Submit</a>    
-             </button>  -->
-          </form>
+            border-radius: 10px;width:45%; font-size:larger;padding:15px;" routerLink="/policy/vehicledetails">Next</button>
          
-<form>
-        <div>
-            <!-- <mat-form-field class="half-width">
-                <label>Choose Policy</label>
-                <div class="form-group">
-                    <select class="form-control" name="" placeholder="" style="border:1px solid lightgray; border-radius: 10px; color:#747474;
-                     padding:15px;padding-left: 10px;padding-right: 100px; width: 80%;">
-                        <option>Select policy</option>
-                        <option value="">Motor policy</option>
-                        <option value="">Private car Insurance policy</option>
-                        <option value="">Commercial Vehicle Insurance policy</option>
-                        <option value="">Fleet Insurance</option>
-                    </select>
-                </div>
-            </mat-form-field> -->
-
-            <!-- <mat-form-field class="half-width">
-                <label>Policy type</label>
-                <div class="form-group">
-                    <select class="form-control" name="" placeholder="" style="border:1px solid lightgray; border-radius: 10px;color:#747474;
-    padding:15px;padding-left: 10px;padding-right: 80px;  width: 80%;">
-                        <option>Select Policy type</option>
-                        <option value="">Comprehensive car insurance</option>
-                        <option value="">Third-party Liability insurance</option>
-                        <option value="">Fire and Theft</option>
-                        <option value="">Personal Injury Protection</option>
-                    </select>
-                </div>
-            </mat-form-field>
-        </div> -->
-
-
-        <!-- <div>
-            <mat-form-field class="half-width">
-                <label>Insurance period</label>
-                <div class="form-group">
-                    <select class="form-control" name="" placeholder="" style="border:1px solid lightgray; border-radius: 10px;color:#747474;
-    padding:15px;padding-left: 10px;padding-right: 50px; width: 80%;">
-                        <option>Select p</option>
-                        <option value="">1 month</option>
-                        <option value="">2 months</option>
-                        <option value="">6 months</option>
-                        <option value="">12 months</option>
-                    </select>
-                </div>
-            </mat-form-field>
-            <mat-form-field>
-                <input matInput [matDatepicker]="picker">
-                <mat-datepicker></mat-datepicker>
-            </mat-form-field> -->
-
-            <!-- <mat-form-field class="half-width">
-                <mat-label>Enter a date range</mat-label>
-                    <mat-date-range-input [rangePicker]="picker">
-                      <input matStartDate placeholder="Start date">
-                      <input matEndDate placeholder="End date">
-                    </mat-date-range-input>
-                    <mat-hint>MM/DD/YYYY – MM/DD/YYYY</mat-hint>
-                    <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
-                    <mat-date-range-picker #picker></mat-date-range-picker>
-                </mat-form-field> -->
-                  
-        <!-- </div>
-
-        <div>
-            <mat-form-field class="half-width">
-                <label>Phone Number</label>
-                <div class="form-group">
-                    <input type="text" class="form-control" id="policy" placeholder="+233 | XXX XXX XXXX">
-                </div>
-            </mat-form-field>
-
-            <mat-form-field class="half-width">
-                <label>End date</label>
-                <div class="form-group">
-                    <input type="text" class="form-control" id="policy" placeholder="GHA-673-20986">
-                </div>
-            </mat-form-field>
-        </div> -->
-
-        <!-- <div>
-            <mat-form-field class="half-width">
-                <label>Extra TPPD Amount</label>
-                <div class="form-group">
-                    <input type="text" class="form-control" id="policy" placeholder="GHA-673-20986">
-                </div>
-            </mat-form-field>
-        </div>
-
-        <div>
-            <mat-form-field>
-                <div style="display: flex;flex-direction: row; align-content: center; gap:10px;">
-                    <button style="background-color: #2384C5;color:white; border-style: none;
-                    border-radius: 10px;width:80%; font-size:larger;padding:15px;" routerLink="/policy/vehicledetails">Next</button>
-                </div>
-            </mat-form-field>
-        </div> -->
-    <!-- </form> -->
-    <!-- </div> -->
+            </div>
+        </form>
+    </div>
 </div>

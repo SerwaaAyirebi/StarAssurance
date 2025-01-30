@@ -1,18 +1,18 @@
 .polydetails{
-    // border: 1px solid red;
-    height: 70vh;
+    width:80%;
+    height: 90vh;
     font-family: "Outfit", serif;
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal; 
-    margin: 60px;
+    margin:auto;
+    margin-top: 5px;
     overflow-y: hidden;
 }
 
 .policydetails{
     align-content: center;
-    width:70%;
-    // height: 70vh;
+    width:80%;
     margin: auto;
     text-align: center;
     color: white;
@@ -21,10 +21,25 @@
     width: 50%;
     color:gray;
 }
+.fullform{
+    margin-top: 30px;
+}
 
 .form-control{
     border: lightgray solid 1px;
-    // width: 50%;
+    width: 75%;
     border-radius: 10px;
     padding:15px;
+}
+#file{
+    width:90%; 
+    border-radius: 20px;  
+    border: solid green 2px;
+}
+.progress-bar{
+    // background-color: red;
+    height: 2vh;
+    border-radius: 10px;
+    top:0;
+    bottom: 0;
 }

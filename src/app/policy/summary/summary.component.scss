@@ -12,15 +12,21 @@
 }
 .money{
    background-color: #2384C5; 
-   width: 250px;
+   width: 300px;
    color: white;
-   font-size:30px;
+   font-size:33px;
    border-radius: 20px;
    padding:20px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height:190px;
+    height:230px;
+}
+.pay-money{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+
 }
 .details{
     width: 350px;
@@ -28,6 +34,7 @@
     border-radius: 20px;
     text-align: center;
     height:230px;
+    padding-top: 20px;
 }
 .pol{
     width: 350px;
@@ -35,6 +42,7 @@
     border-radius: 20px; 
     text-align: center;
     height:230px;
+    padding-top: 10px;
 }
 .poldeets{
     display:flex;
@@ -50,18 +58,24 @@ table,th,td{
     border-right: 1px solid transparent;
 }
 #table{
-    width:100%;
+    width:90%;
     margin-top: 50px;
+    margin-left: 50px;
 }
 .tableau{
-    // border: 3px solid pink;
-    // height: 30vh;
      width: 100%;
-    //  background-color: red;
 }
 .tab{
-    // background-color: yellow;
     padding: 10px;
-    // height: 30vh;
      width: 100%;
+}
+#file{
+    width:90%;
+    margin-left: 60px;
+}
+.body-shadow{
+    border-radius: 30px;
+    height:80vh;
+    margin-top: 60px;
+    box-shadow: rgba(16, 16, 191, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }

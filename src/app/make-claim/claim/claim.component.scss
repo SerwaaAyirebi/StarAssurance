@@ -15,7 +15,19 @@
 .cl{
     display: flex;
     flex-direction: column;
-    //  border: solid 5px yellow;
-    width: 50%;
+    width: 80%;
     margin: auto;
+}
+.clm{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 70%;
+}
+.half-width{
+    margin-left: 30%;
+}
+.form-control{
+    width:100%;
+
 }

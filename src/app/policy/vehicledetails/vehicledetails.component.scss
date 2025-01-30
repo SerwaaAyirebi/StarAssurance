@@ -1,20 +1,18 @@
 .vehicledetails{
-    
-//    text-align: center;
-    // border: 2px solid green;
-    width: 60%;
+    width: 80%;
     margin: auto;
-    // margin-top: 40px;
-    // width:fit-content;
-    // background-color: red;
-    // width:90%;
 }
-
 .form-control{
     border: lightgray solid 1px;
     border-radius: 10px;
     padding:13px;
-    width:70%;
+    border:1px solid lightgray;
+     border-radius: 10px;
+     color:#747474;
+    padding:10px;
+    padding-right: 100px; 
+    width:77%;
+     height: 6vh;
 }
 .half-width{
     // width:70%;
@@ -36,5 +34,81 @@
 }
 .icon-trash{
     color: white;
-
+}
+#file{
+    width:80%;
+    margin-left: 150px; 
+    border-radius: 20px;
+    // border: solid green 2px;
+    appearance: none;
+}
+#file ::-webkit-progress-bar{
+    background-color: #2384C5;
+    border-radius: 10px;
+}
+#file ::-webkit-progress-value{
+    background-color: #2384C5;
+    border-radius: 10px;
+}
+.add{
+    // background-color: #2384C5;
+    background:
+    linear-gradient(#2384C5 0 0) padding-box,
+    linear-gradient(#e6f0f0 0 0) border-box;
+    color:white;
+    //  border-style: none;
+     margin-left: 800px;
+     margin-top: 30px;
+    border-radius: 10px;
+    width:250px; 
+    font-size:larger;
+    padding:15px;
+     bottom: 50px; 
+}
+.add-form{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+    align-content: center;
+    border-radius: 10px;
+    color: white; 
+    background-color: #2384C5;
+    border-style: none;
+    padding: 10px; 
+}
+.remove{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+    align-content: center;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    border-style: none;
+    padding: 10px;
+}
+.vehidetails{
+    width:80%;
+    margin: auto;
+}
+.v-head{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+     margin-top:70px;
+     margin: auto;
+     height: fit-content;
+     align-content: center;
+}
+button{
+    border-radius: 10px;
+    width:150px; 
+    font-size:larger;
+    padding:10px;
+    height: fit-content;
+    border-style: none;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
 }
