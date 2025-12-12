@@ -1,0 +1,146 @@
+<div style="width:80%;margin: auto;">
+
+ <div>   
+<div style="display: flex;flex-direction: row;width: 100%;justify-content: space-between;margin-top: 75px;">
+<button style="margin: 20px;" routerLink="/policy/vehicledetails"><img src="../../../assets/star images/Vector.svg"></button>
+
+<h2 style="text-align: center;margin-top: 20px;"><strong>Summary</strong></h2>
+<div style="display: flex;flex-direction: row;text-align: center; margin-top: 30px;">
+<p style="text-align: center;margin-top: 10px;">
+    <div style="color: #2384C5;">Step 3 </div>of 3
+</div>
+</div>
+
+<div style="background-color: rgba(255, 255, 255, 0.375); height:1vh; width:100%; border: lightgray solid 0.5px; border-radius: 10px;">
+    <div style="background-color: #2384C5; width:99.99%; height:0.7vh;border-radius: 10px; "></div>
+</div>
+
+</div>
+  
+<div class="body-shadow">
+<section id="customer">
+    <!-- 1st CARD -->
+    <div>
+        <div class="pay-money">
+            <mat-checkbox>
+        <h2 style="color: #868DA6;padding-top: 15px;">AMOUNT TO PAY</h2>
+    </mat-checkbox>
+    </div>
+
+    <div class="money">
+        <div style="padding-left: 5px; font-size: 20px;"> GHS </div>
+        <p style="padding-top: 15px; font-size: 36px;"> ₵19,570.00 <br></p>
+         <div style="font-size: large;">July 26, 2024</div>
+    </div>
+</div>
+
+
+        <!--2ND CARD  -->
+<div>
+<mat-checkbox>
+    <h2 style="color: #868DA6;padding-top: 15px;">BILL TO:</h2>
+</mat-checkbox>
+
+<div class="details"> 
+    <div class="custdeets">
+        <img src="../../../assets/star images/Customer Name.svg" >
+        <h2 style="padding-top:13px;font-size: 24px;">Customer Details</h2>
+    </div>
+    <p style="color: #868DA6;">Customer name: Maxwell Amuzu</p>
+    <p style="color: #868DA6;">Email: Maxwellamuzu4267&gmail.com</p>
+    <p style="color: #868DA6;">Phone Number: 0244678954</p>
+</div>
+</div>
+
+        <!-- 3RD CARD -->
+<div>
+    <mat-checkbox>
+        <h2 style="color: #868DA6; padding-top: 15px;">POLICY</h2>
+    </mat-checkbox>
+  
+<div class="pol">
+    <div class="poldeets">
+        <img src="../../../assets/star images/path3334.svg" alt="">
+    <h2 style="padding-top:13px;font-size: 24px;" >Policy Details</h2>
+    </div>
+    <p style="color: #868DA6;">Product: Motor private comprehensive
+       <p style="color: #868DA6;"> Start date:12-19-2024</p>
+        <p style="color: #868DA6;">End date:12-19-2025</p> 
+        <p style="color: #868DA6;">Policy period: 364 days</p>
+        <p style="color: #868DA6;">Branch: AIRPORT</p>
+</div>
+</div>
+</section>
+
+        <!-- TABLE -->
+<section id="table">
+<div class="tableau">
+    <table class="tab">
+        <thead class="shadow-sm border-none gap-x-10" style="color: rgba(161, 166, 206); background-color: rgba(235, 239, 246, 1);">
+            <ng-container matColumnDef="select">
+                <th mat-header-cell *matHeaderCellDef></th>
+                <td mat-cell *matCellDef="let row">
+                  <mat-checkbox></mat-checkbox>        
+             </td>
+             </ng-container> 
+             <td><input type="checkbox">
+             </td>
+            <td>Vehicle usage</td>
+            <td>Reg No_</td>
+            <td>Make</td>
+            <td>Model</td>
+            <td>Body type</td>
+            <td>Colour</td>
+            <td>Value</td>
+            <td>Seats</td>
+            <td>Action</td>
+        </thead>
+
+        <tbody  class="shadow-sm border-none " style="color: rgba(119, 119, 119, 1)">
+            <td><input type="checkbox">
+            </td>
+            <td>Personal</td>
+            <td>GS-6987-21</td>
+            <td>Toyota</td>
+            <td>Corolla</td>
+            <td>Sedan</td>
+            <td>White</td>
+            <td>GHS ¢90,000</td>
+            <td>5</td>
+            <td><div class="flex flex-row space-x-4 ">
+                    <button class="bg-blue-400 rounded-2xl p-1 w-20" style="color: rgba(231, 68, 88, 1); background-color: rgba(231, 68, 88, 0.14);border-radius: 8px;border-style: none;">Delete</button>
+                
+                    <button class="bg-red-500 rounded-2xl p-1 w-20" style="color: rgba(115, 82, 235, 1); background-color: rgba(115, 82, 235, 0.18);border-radius: 8px; border-style: none;">Edit</button>
+                </div>
+            </td>
+                <tbody  class="shadow-sm border-none " style="color: rgba(119, 119, 119, 1)">
+                    <td><input type="checkbox">
+                    </td> 
+                    <td>Personal</td>
+                    <td>GS-6987-21</td>
+                    <td>Toyota</td>
+                    <td>Corolla</td>
+                    <td>Sedan</td>
+                    <td>White</td>
+                    <td>GHS ¢90,000</td>
+                    <td>5</td>
+                    <td>
+                        <div class="flex flex-row space-x-4 ">
+                            <button class="bg-blue-400 rounded-2xl p-1 w-20" style="color: rgba(231, 68, 88, 1); background-color: rgba(231, 68, 88, 0.14);border-radius: 8px; border-style: none;">Delete</button>
+                        
+                            <button class="bg-red-500 rounded-2xl p-1 w-20" style="color: rgba(115, 82, 235, 1); background-color: rgba(115, 82, 235, 0.18);border-radius: 8px; border-style: none;">Edit</button>
+                        </div>
+                    </td>
+                </tbody>
+    </table>
+</div>
+
+
+<div>
+    <button style="background-color: #2384C5;color:white; border-style: none;
+ border-radius: 10px;width:300px; font-size:larger;padding:15px; margin-left: 60%; margin-top: 20px;">Make payment</button>
+</div>
+</section>
+</div>
+</div>
+

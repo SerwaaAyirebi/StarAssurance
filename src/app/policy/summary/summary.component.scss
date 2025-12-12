@@ -1,0 +1,81 @@
+#customer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.custdeets{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+   margin-left: 70px;
+ 
+}
+.money{
+   background-color: #2384C5; 
+   width: 300px;
+   color: white;
+   font-size:33px;
+   border-radius: 20px;
+   padding:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height:230px;
+}
+.pay-money{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+
+}
+.details{
+    width: 350px;
+    background-color: #EBEFF6; 
+    border-radius: 20px;
+    text-align: center;
+    height:230px;
+    padding-top: 20px;
+}
+.pol{
+    width: 350px;
+    background-color: #EBEFF6; 
+    border-radius: 20px; 
+    text-align: center;
+    height:230px;
+    padding-top: 10px;
+}
+.poldeets{
+    display:flex;
+    flex-direction: row; 
+    text-align: center;
+    margin-left: 90px;
+}
+table,th,td{
+    border-bottom:0.5px solid gray;
+    border-collapse: collapse;
+    border-top: 1px solid transparent;
+    border-left:1px solid transparent;
+    border-right: 1px solid transparent;
+}
+#table{
+    width:90%;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.tableau{
+     width: 100%;
+}
+.tab{
+    padding: 10px;
+     width: 100%;
+}
+#file{
+    width:90%;
+    margin-left: 60px;
+}
+.body-shadow{
+    border-radius: 30px;
+    height:80vh;
+    margin-top: 60px;
+    box-shadow: rgba(16, 16, 191, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}

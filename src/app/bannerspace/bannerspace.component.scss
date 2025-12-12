@@ -1,0 +1,163 @@
+.banner-content{
+    // border: 2px solid;
+    height: 50vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    // margin: 0;
+    // padding-top: 70px;
+}
+#bannerspace{
+    // border: 3px solid red;
+    padding-top: 70px;
+    height: 100vh;
+    margin-top: 0px;
+}
+
+.carlogo{
+    background-color: rgba(134, 134, 134, 0.09);
+    // padding: 3px;
+    border: none;
+    // align-items: center;
+    color: #2384C5;
+}
+.text{
+    color:#275676;
+    text-align: center;
+    font-optical-sizing: auto;
+   
+}
+.text h1{
+    font-size: 60px;
+    font-weight: 500;
+    padding: 20px;
+    line-height: 1.2;
+}
+.backcar{
+     //border: 2px solid red;
+    width: 100%;
+    margin: auto;
+}
+.backcar img{
+    margin-top: 10%;
+}
+.blueback{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    // height: 60%;
+    // border: 2px solid yellow;
+}
+.blueback img{
+ width: 90%;
+//  height: 100%;
+}
+.fullphoto{
+    position: absolute;
+    top: 68%;
+    left: 27%;
+    // border: 2px solid hotpink;
+}
+.fullphoto img{
+    width: 70%;
+}
+// #bannerspace{
+//  border: 2px solid pink;
+//  height: 93vh;
+//  margin-top: 30px;
+//  position: relative;
+//  z-index: 0;
+// }
+//  .bannertext{
+//     // border:solid green 2px;
+    //  color:#275676;
+    //   font-size: 50px;
+    //   text-align: center;
+    //   font-family: "Outfit", serif;
+    //   font-optical-sizing: auto;
+    //   font-weight: 600;
+//     // font-style: normal;
+//  }
+//  .carlogo{
+// //    border:solid green 2px;
+    //  border-radius: 50px; 
+    //   display: flex;
+    //  color: #2384C5;
+    //  background-color: rgba(134, 134, 134, 0.09);
+    //  align-content: center;
+    //   align-items: center;
+    //  flex-direction: row;
+    // margin: auto;
+    //  justify-content: center;
+    // width:fit-content;
+    // padding: 5px;
+    // padding-left: 15px;
+    // padding-right: 15px;
+    
+//  }
+//  .carlogo text{
+//     align-self: center;
+//     align-items: center;
+//     text-align: center;
+//  }
+// .banner-content{
+//      margin-top:6% ;
+    
+//      // display: flex;
+//      // flex-direction: column;
+
+//  }
+//  .search{
+//     margin-top: 4%;
+//     display: flex;
+//  }
+//  .search input{
+//      border-radius: 30px;
+//      border: 2px solid;
+//      justify-content: center;
+//      align-content: center;
+//     //  border-radius: 50px; 
+//       display: flex;
+//       margin-left: 30%; 
+//     //  justify-content: center;
+//       width:38%;
+//      padding: 15px;
+// }
+// // .search input img{
+// //     margin-left: 40%; 
+// // }
+//  .car{
+// //     // border: 2px solid red;
+//      width: 100%;
+//      margin: auto;
+//  }
+//  .car img{
+//      width: 100%;
+//  }
+//  .blue{
+//      // border: 2px solid green;
+//      width: 80%;
+//      margin: auto;
+//      position: absolute;
+//      top: 90%;
+//      height: 70%;
+// }
+//  .blue img{
+//      position: relative;
+//      bottom: 90%;
+// }
+// // .full-length{
+// //     border: 2px solid;
+// //     height:30vh;
+// //     // position: relative;
+// //     // bottom: 70%;
+// // }
+// .full-length img{
+//     position: absolute;
+//     top: 60%;
+//     height: 65vh;
+// }
+// // @media screen {
+// //     (width>=64rem)
+// // }

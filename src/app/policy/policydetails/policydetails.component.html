@@ -1,0 +1,120 @@
+<div class="polydetails">
+
+    <!-- HEADING, ARROW BUTTON, STEP -->
+    <div>   
+        <div style="display: flex;flex-direction: row;width: 100%;justify-content: space-between;margin-top: 75px;">
+        <button style="margin: 20px;" routerLink="/policy/vehicledetails"><img src="../../../assets/star images/Vector.svg"></button>
+        
+        <h2 style="text-align: center;margin-top: 20px;"><strong>Policy Details</strong></h2>
+        <div style="display: flex;flex-direction: row;text-align: center; margin-top: 30px;">
+        <p style="text-align: center;margin-top: 10px;">
+            <div style="color: #2384C5;">Step 1 </div>of 3
+        </div>
+        </div>
+        
+        <div style="background-color: rgba(255, 255, 255, 0.375); height:1vh; width:100%; border: lightgray solid 0.5px; border-radius: 10px;">
+            <div style="background-color: #2384C5; width:33.33%; height:0.7vh;border-radius: 10px; "></div>
+        </div>
+        
+    </div>
+          
+  
+    <div class="policydetails">
+        <form>
+            <div class="top">
+            </div>
+            <div class="fullform">
+            <div class="form-group">
+                 <mat-form-field class="half-width">
+                    <label for="Choose Policy" style="color: #747474;">Choose Policy</label>
+                    <div>
+                    <select placeholder="Select Policy" name="policy" style="border: 1px solid lightgray;
+                     color: #747474; border-radius: 10px;padding: 10px;padding-right: 100px; width: 75%;">
+                        <option>Select policy</option>
+                        <option value="">Motor policy</option>
+                        <option value="">Private car Insurance policy</option>
+                        <option value="">Commercial Vehicle Insurance policy</option>
+                        <option value="">Fleet Insurance</option>
+                    </select>
+                  </div>
+                </mat-form-field>
+            
+           
+             <mat-form-field class="half-width">
+                    <label for="Choose Policy Type" style="color: #747474;">Choose Policy Type</label>
+                   <div>
+                    <select placeholder="Select Policy" name="policy type" style="border: 1px solid  lightgray; color: #747474;
+                     border-radius: 10px;padding: 10px;padding-right: 80px;  width: 75%;">
+                        <option>Select Policy type</option>
+                        <option value="">Comprehensive car insurance</option>
+                        <option value="">Third-party Liability insurance</option>
+                        <option value="">Fire and Theft</option>
+                        <option value="">Personal Injury Protection</option>
+                    
+                    </select>
+                </div>
+                </mat-form-field> 
+          </div>
+          <div>
+                 <mat-form-field class="half-width">
+                    <label for="Insurance Period" style="color: #747474;">Insurance Period</label>
+                    <div>
+                    <select placeholder="Select Year" name="manufacture" style="border: 1px solid lightgray; color: #747474;
+                     border-radius: 10px;padding: 10px;padding-right: 40px;  width: 75%;">
+                        <option>Select Isurance Period</option>
+                        <option value="">1 month</option>
+                        <option value="">2 months</option>
+                        <option value="">6 months</option>
+                        <option value="">12 months</option>
+                     </select>
+                    </div>
+                </mat-form-field>
+            
+                <mat-form-field class="half-width">
+                    <label for="Start Date" style="color: #747474;">Start Date</label>
+                    <div>
+                    <select placeholder="Select Year"  name="registration" style="border: 1px solid  lightgray; color: #747474; 
+                    appearance: none; border-radius: 10px;padding: 10px;padding-right: 100px;width: 75%;">
+                        <!-- <option >Select Year</option>
+                        <option value="2020">2020</option>
+                        <option value="2021">2021</option>
+                        <option value="2022">2022</option>
+                        <option value="2023">2023</option> -->
+                     </select>
+                    </div>
+                </mat-form-field> 
+            </div>
+            <div class="form-group">
+                <mat-form-field class="half-width">
+                    <label for="Phone Number" style="color: #747474;">Phone Number</label>
+                    <div>
+                        <input type="text" class="form-control" id="policy" placeholder="+233 | XXX XXX XXXX" style="border: 1px solid  lightgray;
+                         border-radius: 10px;padding: 10px;padding-left: 20px;padding-right: 90px;">
+                    <!-- <input matInput placeholder="Enter passenger count" name="count" style="border: 1px solid  lightgray; border-radius: 10px;padding: 10px;padding-left: 20px;padding-right: 90px;"> -->
+                    </div>
+                </mat-form-field>
+                 
+                 
+                <mat-form-field class="half-width">
+                    <label for="End Date" style="color: #747474;">End Date</label>
+                    <div>
+                    <select placeholder="Select Year"  name="registration" style="border: 1px solid  lightgray; color: #747474;
+                     appearance: none; border-radius: 10px;padding: 10px;padding-right: 100px;width: 75%;">
+                        <!-- <option >Select Year</option>
+                        <option value="2020">2020</option>
+                        <option value="2021">2021</option>
+                        <option value="2022">2022</option>
+                        <option value="2023">2023</option> -->
+                     </select>
+                    </div>
+                </mat-form-field> 
+            </div>
+
+            <!-- BUTTON -->
+            <button style="background-color: #2384C5;color:white; border-style: none;
+            border-radius: 10px;width:45%; font-size:larger;padding:15px;" routerLink="/policy/vehicledetails">Next</button>
+         
+            </div>
+        </form>
+    </div>
+</div>

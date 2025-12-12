@@ -1,0 +1,47 @@
+.submit{
+     background-color:  rgba(35, 132, 197, 1);;
+    color: white;
+    width:30%;
+    padding: 10px;
+    margin-left: 52%;
+    border-radius: 10px;
+}
+.half-width {
+    // border: 1px solid;
+      width:50%;
+    // height: 20vh;
+}
+.top{
+    // box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    width: 100%;
+    height: 6vh; 
+}
+.min{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    padding: 20px;
+    gap: 40%;
+}
+.fullform{
+//  border: 2px solid green;
+ width: 60%;
+ margin: auto;
+ height: 70vh;
+}
+.fullwidth{
+    appearance: none;
+    background-color: transparent;
+  border: none;
+  padding: 0 1em 0 0;
+  margin: 0;
+  width: 100%;
+  font-family: inherit;
+//   font-size: inherit;
+  cursor : inherit;
+//   line-height: inherit;
+  outline: none;
+}
+.policy-type{
+    border: 1px solid;
+}

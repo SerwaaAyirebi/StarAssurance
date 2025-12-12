@@ -1,0 +1,233 @@
+<div class="vehidetails">
+
+    <div>
+        <div style="display: flex;flex-direction: row;width: 100%;justify-content: space-between;margin-top: 65px;">
+            <button style="margin: 20px;" routerLink="/policy/policydetails"><img src="../../../assets/star images/Vector.svg"></button>
+            
+            <h2 style="text-align: center;margin-top: 20px;"><strong>Vehicle Details</strong></h2>
+            <div style="display: flex;flex-direction: row;text-align: center; margin-top: 30px;">
+            <p style="text-align: center;margin-top: 10px;">
+                <div style="color: #2384C5;">Step 2 </div>of 3
+            </div>
+        </div>
+            
+            <div style="background-color: rgba(255, 255, 255, 0.375); height:1vh; width:100%; border: lightgray solid 0.5px; border-radius: 10px;">
+                <div style="background-color: #2384C5; width:66.66%; height:0.7vh;border-radius: 10px; "></div>
+            </div>
+            
+    </div>
+
+    <button class="add" >+ Add Another Vehicle</button>
+
+    <!-- FORMMMMMMMMMMMMMM-->
+<div class="vehicledetails"> 
+        <form #vehicleform="ngForm" (ngSubmit)="onSubmit(vehicleform)"> 
+            <!-- <div *ngFor="let onevehicle of formList;">                                                   -->
+<div>
+    <mat-form-field class="half-width">
+        <label for="Registration year">Registration year</label>
+        <div class="form-group">
+            <select [(ngModel)]="form.registrationYear" class="form-control"  name="registrationYear" id="Registration year" placeholder="" style="border:1px solid lightgray; border-radius: 10px;color:#747474;
+            padding:10px;padding-right: 100px;width:77%;height: 6vh;">
+           <option>Select registration year</option>
+           <option value="">100</option>
+           <option value="">200</option>
+           <option value="">300</option>
+           <option value="">400</option>
+       </select>
+   </div>
+   </mat-form-field>
+
+   <mat-form-field class="half-width">
+    <label for="Year of manufacture">Year of manufacture</label>
+    <div class="form-group">
+    <select [(ngModel)]="form.manufactureYear"  class="form-control" name="manufactureYear" id="Year of manufacture" placeholder="" style="border:1px solid lightgray; border-radius: 10px;color:#747474;
+    padding:10px;padding-left: 20px;padding-right: 100px; width:77%; height: 6vh;">
+        <option>Select year</option>
+        <option value="">100</option>
+        <option value="">200</option>
+        <option value="">300</option>
+        <option value="">400</option>
+    </select>
+</div>
+</mat-form-field>
+</div>
+
+
+<div>  
+<mat-form-field class="half-width">
+     <label for="Vehicle Usage">Vehicle Usage</label>
+<div class="form-group">
+    <select [(ngModel)]="form.vehicleUsage"  class="form-control" name="vehicleUsage" id="Vehicle Usage" placeholder="" style="border:1px solid lightgray; border-radius: 10px;color:#747474;
+    padding:10px;padding-right: 100px; width:77%; height: 6vh;">
+        <option>Select usage type</option>
+        <option value="">100</option>
+        <option value="">200</option>
+        <option value="">300</option>
+        <option value="">400</option>
+    </select>
+</div>
+</mat-form-field>
+
+<mat-form-field class="half-width">
+    <label for="Vehicle type">Vehicle type</label>
+<div class="form-group">
+    <select [(ngModel)]="form.vehicleType"  class="form-control" name="vehicleType" id="Vehicle type" placeholder="" style="border:1px solid lightgray; border-radius: 10px;color:#747474;
+    padding:10px;padding-right: 100px; width:77%; height: 6vh;">
+        <option>Select type</option>
+        <option value="">Car</option>   
+        <option value="">Motorcycle</option>
+        <option value="">Scooter</option>
+        <option value="">Bicycle</option>
+        <option value=""> Electric Bike </option>
+        <option value=""> Electric Scooter</option>
+        <option value=""> Pickup Truck</option>
+        <option value="">Delivery Vehicle</option>
+        <option value="">Tow Truck</option>
+        <option value="">Tractor</option>
+        <option value="">Forklift</option>
+    </select>
+</div>
+</mat-form-field>
+</div>
+
+
+<div style="display: flex; flex-direction: row;">
+<mat-form-field class="half-width">
+    <label for="Registration Number">Registration Number</label>
+<div class="form-group">
+    <input name="registrationNumber" [(ngModel)]="form.registrationNumber" matInput type="text" class="form-control" id="Registration Number" placeholder="Input Number">
+</div>
+</mat-form-field>
+
+<div style="width: 40%; display: flex;">
+    <mat-form-field >
+        <label for="Passenger count" style="color:#747474;">Passenger count</label>
+     <div class="form-group">
+        <select [(ngModel)]="form.passengerCount" class="form-control" name="passengerCount" id="Passenger count" placeholder="" style="border:1px solid lightgray; border-radius: 10px;color:#747474;
+        padding:5px; width:90%;">
+            <option>Select number</option>
+            <option value="">100</option>
+            <option value="">200</option>
+            <option value="">300</option>
+            <option value="">400</option>
+        </select>
+     </div>
+    </mat-form-field>
+    <mat-form-field class="width">
+        <label for="Vehicle colour" style="color:#747474;">Vehicle colour</label>
+        <div class="form-group">
+        <input name="vehicleColor"  [(ngModel)]="form.vehicleColor" matInput type="text" id="Vehicle colour" placeholder="Input colour" style="width:96%;border: lightgray solid 1px;
+        border-radius: 10px; padding:13px;">
+     </div>
+    </mat-form-field>
+</div>
+</div>
+
+
+<div>
+<mat-form-field class="half-width">
+    <label for="Vehicle value">Vehicle value</label>
+<div class="form-group"> 
+    <input name="vehicleValue" [(ngModel)]="form.vehicleValue" matInput type="text" class="form-control" id="Vehicle value" placeholder="Input value">
+</div>
+</mat-form-field>
+
+<mat-form-field class="half-width">
+    <label for="Chassis Number">Chassis Number</label>
+<div class="form-group">
+    <input name="chassisNumber" [(ngModel)]="form.chassisNumber" matInput type="text" class="form-control" id="Chassis Number" placeholder="Input chassis">
+</div>
+</mat-form-field>
+</div>
+
+
+<div>
+<mat-form-field class="half-width">
+    <label for="Vehicle Make">Vehicle make</label>
+<div class="form-group">
+    <select [(ngModel)]="form.vehicleMake" class="form-control" name="vehicleMake" id="Vehicle Make" placeholder="" style="border:1px solid lightgray; border-radius: 10px;color:#747474;
+    padding:10px;padding-right: 100px;width:77%;">
+        <option>Select Vehicle make</option>
+        <option value="">100</option>
+        <option value="">200</option>
+        <option value="">300</option>
+        <option value="">400</option>
+    </select>
+</div>
+</mat-form-field>
+
+<mat-form-field class="half-width">
+    <label for="Vehicle Model">Vehicle Model</label>
+<div class="form-group">
+    <select [(ngModel)]="form.vehicleModel" class="form-control" name="vehicleModel" id="Vehicle Model" placeholder="" style="border:1px solid lightgray; border-radius: 10px;color:#747474;
+    padding:10px;padding-right: 100px; width:77%;">
+        <option>Select Vehicle model</option>
+        <option value="">100</option>
+        <option value="">200</option>
+        <option value="">300</option>
+        <option value="">400</option>
+    </select>
+</div>
+</mat-form-field>
+</div>
+
+
+<div>
+<mat-form-field class="half-width">
+    <label for="Extra TPPD amount">Extra TPPD amount</label>
+<div class="form-group">
+    <input name="tppdAmount" [(ngModel)]="form.tppdAmount"  matInput type="text" class="form-control" id="Extra TPPD amount" placeholder="GHA-673-20986">
+</div>
+</mat-form-field>
+
+<mat-form-field class="half-width">
+    <label for="Cubic capacity">Cubic capacity</label>
+<div class="form-group">
+ <input name="cubicCapacity" [(ngModel)]="form.cubicCapacity"   matInput type="text" class="form-control" id="Cubic capacity" placeholder="Input excess">
+</div>
+</mat-form-field>
+</div>
+
+
+
+<div style=" display: flex;">
+<mat-form-field class="half-width">
+    <label for="Buy excess">Buy excess</label>
+<div class="form-group">
+    <input name="buyExcess" [(ngModel)]="form.buyExcess"  matInput type="text"
+     class="form-control" id="Buy excess" placeholder="Input excess">
+</div>
+</mat-form-field>
+
+<div style="display: flex;flex-direction: row; align-content: center; gap:10px; margin-top: 50px;">
+<button style="background-color: rgba(35, 132, 197, 0.24);color:rgba(119, 119, 145, 1);" routerLink="/policy/policydetails">Previous</button>
+ <button style="background-color: #2384C5;color:white; " routerLink="/policy/summary">Next</button>
+ </div>
+</div>
+
+
+
+<div style="display: flex;flex-direction: row; justify-content: space-between; width: 63%;margin: auto;">
+    <div style="display: flex;flex-direction: row;">
+    <button class="add-form" type="submit" (click)="addForm(form)">
+        <div class="icon-circle"><i class="fas fa-plus" ></i> </div>
+        <div style="margin-top: 3px;" >Add Form</div>
+    </button>
+    </div>
+
+    <button class="remove" type="button">
+        <div class="icon-trash"><i class="fas fa-trash"></i></div>
+         Remove
+    </button>
+</div>
+
+</form>
+</div>
+
+</div>
+    
+        
+
+
+
